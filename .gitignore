@@ -1,6 +1,12 @@
 # environment
 .env
 
+# vscode
+.vscode
+
+# data
+data/
+
 # python build stuff
 __pycache__/
 *pyc

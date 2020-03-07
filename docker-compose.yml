@@ -2,6 +2,7 @@ version: '3'
 services:
   notebook:
     build: . 
+    env_file: .env
     ports:
       - 8888:8888
     volumes:
